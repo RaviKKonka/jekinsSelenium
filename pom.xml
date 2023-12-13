@@ -42,11 +42,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<brower>
-							${Browser}$
-						</brower>
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>

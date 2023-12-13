@@ -8,17 +8,10 @@
 	import org.testng.annotations.Test;
 	
 	public class sample_Demo {
-	
-		@Parameters("Browser")
+		
 		@Test
-		public void sampleMethod(String browserName) {
-	
-			System.out.println("browserName >>> " + browserName);
-			WebDriver driver = null;
-			if (browserName.contains("Chrome"))
-				driver = new ChromeDriver();
-			else if(browserName.contains("Edge"))
-				driver = new EdgeDriver();
+		public void sampleMethod() {
+			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://google.com");
 			String title = driver.getTitle();
