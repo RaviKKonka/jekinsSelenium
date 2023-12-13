@@ -13,7 +13,7 @@
 		@Test
 		public void sampleMethod(String browserName) {
 	
-			System.out.println("browserName >> " + browserName);
+			System.out.println("browserName >>> " + browserName);
 			WebDriver driver = null;
 			if (browserName.contains("Chrome"))
 				driver = new ChromeDriver();
