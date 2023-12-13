@@ -18,6 +18,8 @@
 			System.out.println("title >> " + title);
 			Assert.assertEquals(title, "Google");
 			driver.quit();
+			
+			System.out.println(">>> Completed Testing <<<");
 		}
 	
 	}
